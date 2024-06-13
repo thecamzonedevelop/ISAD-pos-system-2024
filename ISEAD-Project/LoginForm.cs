@@ -7,7 +7,7 @@ namespace ISEAD_Project
     public partial class Loginform : Form
     {
         private DbConnection db;
-
+        string userName;
         public Loginform()
         {
             InitializeComponent();
@@ -60,11 +60,21 @@ namespace ISEAD_Project
                         if (dr.Read())
                         {
                             string role = dr["roles"].ToString();
+                            //string username = dr["u_name"].ToString();
                             MessageBox.Show($"Login successful! Role: {role}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                            if (role == "admin")
+                            {
+                                Ulog.type = "admin";
+                            }
+                            else if (role == "staff")
+                            {
+                                Ulog.type = "staff";
+                            }
+                            userName = username.Text;
                             // Open the main form or perform other actions based on the user's role
                             this.Hide();
-                            HomeForm homeForm = new HomeForm(); // Assuming HomeForm is the next form to be shown
+                            HomeForm homeForm = new HomeForm(userName); // Assuming HomeForm is the next form to be shown
                             homeForm.Show();
                         }
                         else

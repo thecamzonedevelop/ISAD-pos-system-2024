@@ -10,10 +10,16 @@
     <Compile Update="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UserControlAccounts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControlCustomer.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControlHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControlPerminstion.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControlPOS.cs">

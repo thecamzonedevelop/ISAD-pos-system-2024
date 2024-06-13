@@ -12,7 +12,7 @@
  Target Server Version : 16001000 (16.00.1000)
  File Encoding         : 65001
 
- Date: 13/06/2024 09:30:09
+ Date: 14/06/2024 00:29:13
 */
 
 
@@ -239,6 +239,9 @@ GO
 INSERT INTO [dbo].[tbStaffs] ([staffID], [fullName], [gen], [Dob], [position], [salary], [stopwork]) VALUES (N'3', N'Mary Ma', N'F', N'2000-08-16', N'HR', N'350.0000', N'0')
 GO
 
+INSERT INTO [dbo].[tbStaffs] ([staffID], [fullName], [gen], [Dob], [position], [salary], [stopwork]) VALUES (N'4', N'GG', N'F', N'2000-03-24', N'Sell', N'267.0000', N'0')
+GO
+
 SET IDENTITY_INSERT [dbo].[tbStaffs] OFF
 GO
 
@@ -289,7 +292,8 @@ CREATE TABLE [dbo].[tbUsers] (
   [u_name] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
   [pwd] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
   [roles] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS  NOT NULL,
-  [id] int  IDENTITY(1,1) NOT NULL
+  [id] int  IDENTITY(1,1) NOT NULL,
+  [staff_id] tinyint  NOT NULL
 )
 GO
 
@@ -303,10 +307,10 @@ GO
 SET IDENTITY_INSERT [dbo].[tbUsers] ON
 GO
 
-INSERT INTO [dbo].[tbUsers] ([u_name], [pwd], [roles], [id]) VALUES (N'admin', N'admin123', N'admin', N'1')
+INSERT INTO [dbo].[tbUsers] ([u_name], [pwd], [roles], [id], [staff_id]) VALUES (N'admin', N'admin123', N'admin', N'1', N'1')
 GO
 
-INSERT INTO [dbo].[tbUsers] ([u_name], [pwd], [roles], [id]) VALUES (N'staff001', N'staff123', N'staff', N'2')
+INSERT INTO [dbo].[tbUsers] ([u_name], [pwd], [roles], [id], [staff_id]) VALUES (N'staff001', N'staff123', N'staff', N'2', N'1')
 GO
 
 SET IDENTITY_INSERT [dbo].[tbUsers] OFF
@@ -695,7 +699,7 @@ GO
 -- ----------------------------
 -- Auto increment value for tbStaffs
 -- ----------------------------
-DBCC CHECKIDENT ('[dbo].[tbStaffs]', RESEED, 3)
+DBCC CHECKIDENT ('[dbo].[tbStaffs]', RESEED, 4)
 GO
 
 
@@ -743,7 +747,7 @@ GO
 -- ----------------------------
 -- Primary Key structure for table tbUsers
 -- ----------------------------
-ALTER TABLE [dbo].[tbUsers] ADD CONSTRAINT [PK__tbUsers__3213E83FF666AFF5] PRIMARY KEY CLUSTERED ([id])
+ALTER TABLE [dbo].[tbUsers] ADD CONSTRAINT [PK__tbUsers__3213E83FF666AFF5] PRIMARY KEY CLUSTERED ([id], [staff_id])
 WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON)  
 ON [PRIMARY]
 GO
@@ -783,5 +787,12 @@ ALTER TABLE [dbo].[tbPayments] ADD CONSTRAINT [fksta_Pay] FOREIGN KEY ([staffID]
 GO
 
 ALTER TABLE [dbo].[tbPayments] ADD CONSTRAINT [fk_inv] FOREIGN KEY ([InvCode]) REFERENCES [dbo].[tbInvoices] ([InvCode]) ON DELETE NO ACTION ON UPDATE NO ACTION
+GO
+
+
+-- ----------------------------
+-- Foreign Keys structure for table tbUsers
+-- ----------------------------
+ALTER TABLE [dbo].[tbUsers] ADD CONSTRAINT [staff] FOREIGN KEY ([staff_id]) REFERENCES [dbo].[tbStaffs] ([staffID]) ON DELETE NO ACTION ON UPDATE CASCADE
 GO
 

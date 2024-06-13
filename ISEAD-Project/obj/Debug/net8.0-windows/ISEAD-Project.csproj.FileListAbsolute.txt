@@ -34,3 +34,6 @@ D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserCon
 D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlPOS.resources
 D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlSublayer.resources
 D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlStaff.resources
+D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.sourcelink.json
+D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlPerminstion.resources
+D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlAccounts.resources

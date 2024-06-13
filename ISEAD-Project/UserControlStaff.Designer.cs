@@ -397,6 +397,7 @@
             saveStaff.TabIndex = 10;
             saveStaff.Text = "Save";
             saveStaff.Click += saveStaff_Click;
+            saveStaff.Enter += saveStaff_Click;
             // 
             // guna2HtmlLabel7
             // 

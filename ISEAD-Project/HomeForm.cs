@@ -12,14 +12,25 @@ namespace ISEAD_Project
 {
     public partial class HomeForm : Form
     {
-        public HomeForm()
+
+        UserControlPerminstion ucp = new UserControlPerminstion();
+
+        public HomeForm(string name)
         {
             InitializeComponent();
-            UserControlHome uc = new UserControlHome();
-            addUserControl(uc);
+            if (Ulog.type == "admin")
+            {
+                UserControlHome uc = new UserControlHome();
+                addUserControl(uc);
+            }
+            else
+            {
+                addUserControl(ucp);
+            }
             timer1.Start();
             timeHeader.Text = DateTime.Now.ToLongTimeString();
             dateHeader.Text = DateTime.Now.ToShortDateString();
+            useAccoun.Text = name;
         }
 
         private void addUserControl(UserControl userControl)
@@ -52,7 +63,14 @@ namespace ISEAD_Project
         private void dashbord_Click(object sender, EventArgs e)
         {
             UserControlHome uc = new UserControlHome();
-            addUserControl(uc);
+            if (Ulog.type == "admin")
+            {
+                addUserControl(uc);
+            }
+            else
+            {
+                addUserControl(ucp);
+            }
 
         }
 
@@ -71,19 +89,40 @@ namespace ISEAD_Project
         private void customer_Click(object sender, EventArgs e)
         {
             UserControlCustomer uc = new UserControlCustomer();
-            addUserControl(uc);
+            if (Ulog.type == "admin")
+            {
+                addUserControl(uc);
+            }
+            else
+            {
+                addUserControl(ucp);
+            }
         }
 
         private void sublayer_Click(object sender, EventArgs e)
         {
             UserControlSublayer uc = new UserControlSublayer();
-            addUserControl(uc);
+            if (Ulog.type == "admin")
+            {
+                addUserControl(uc);
+            }
+            else
+            {
+                addUserControl(ucp);
+            }
         }
 
         private void staff_Click(object sender, EventArgs e)
         {
             UserControlStaff uc = new UserControlStaff();
-            addUserControl(uc);
+            if (Ulog.type == "admin")
+            {
+                addUserControl(uc);
+            }
+            else
+            {
+                addUserControl(ucp);
+            }
         }
 
         private void guna2Panel2_Paint(object sender, PaintEventArgs e)
@@ -95,6 +134,40 @@ namespace ISEAD_Project
         {
             timeHeader.Text = DateTime.Now.ToLongTimeString();
             timer1.Start();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Loginform loginform = new Loginform();
+            // show MessageBox to confirm logout 
+            var confirmResult = MessageBox.Show("Are you sure you want to logout?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirmResult == DialogResult.Yes)
+            {
+                loginform.Show();
+                this.Hide();
+            }
+            else
+            {
+                // do nothing
+            }
+
+        }
+
+        private void useAccoun_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            UserControlAccounts uc = new UserControlAccounts();
+            if (Ulog.type == "admin")
+            {
+                addUserControl(uc);
+            } else
+            {
+                addUserControl(ucp);
+            }
         }
     }
 }

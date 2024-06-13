@@ -604,23 +604,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vanna\\.nuget\\packages\\": {},
+    "C:\\Users\\LO-168\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Souce code\\C#\\ISAD-pos-system-2024\\ISEAD-Project\\ISEAD-Project.csproj",
+      "projectUniqueName": "D:\\C#\\ISEAD-Project\\ISEAD-Project\\ISEAD-Project.csproj",
       "projectName": "ISEAD-Project",
-      "projectPath": "D:\\Souce code\\C#\\ISAD-pos-system-2024\\ISEAD-Project\\ISEAD-Project.csproj",
-      "packagesPath": "C:\\Users\\vanna\\.nuget\\packages\\",
-      "outputPath": "D:\\Souce code\\C#\\ISAD-pos-system-2024\\ISEAD-Project\\obj\\",
+      "projectPath": "D:\\C#\\ISEAD-Project\\ISEAD-Project\\ISEAD-Project.csproj",
+      "packagesPath": "C:\\Users\\LO-168\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\ISEAD-Project\\ISEAD-Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\vanna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LO-168\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -629,7 +629,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -642,6 +641,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -676,7 +680,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

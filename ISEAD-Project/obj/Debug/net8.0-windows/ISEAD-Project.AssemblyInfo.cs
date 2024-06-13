@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ISEAD-Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed96cb7c51e7ce16865ba13bd3126878f5d624c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85f8fd284013b63b265249a19534dbe7aa563c75")]
 [assembly: System.Reflection.AssemblyProductAttribute("ISEAD-Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ISEAD-Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

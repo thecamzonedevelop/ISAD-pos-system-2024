@@ -34,3 +34,40 @@ D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserCon
 D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlPOS.resources
 D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlSublayer.resources
 D:\C#\ISEAD-Project\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlStaff.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\ISEAD-Project.exe
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\ISEAD-Project.deps.json
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\ISEAD-Project.runtimeconfig.json
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\ISEAD-Project.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\ISEAD-Project.pdb
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\Guna.UI2.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\System.Management.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.csproj.AssemblyReference.cache
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.HomeForm.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.LoadingForm.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.Loginform.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.Properties.Resources.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlCustomer.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlHome.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlPOS.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlProduct.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlStaff.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD_Project.UserControlSublayer.resources
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.csproj.GenerateResource.cache
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.AssemblyInfoInputs.cache
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.AssemblyInfo.cs
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.csproj.CoreCompileInputs.cache
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.sourcelink.json
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.csproj.CopyComplete
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\refint\ISEAD-Project.dll
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.pdb
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ISEAD-Project.genruntimeconfig.cache
+D:\Souce code\C#\ISAD-pos-system-2024\ISEAD-Project\obj\Debug\net8.0-windows\ref\ISEAD-Project.dll

@@ -1,1 +1,6 @@
 .vs
+bin
+objects
+obj
+build
+builds

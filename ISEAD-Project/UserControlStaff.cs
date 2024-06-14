@@ -61,6 +61,7 @@ namespace ISEAD_Project
         private void saveStaff_Click(object sender, EventArgs e)
         {
             string Name = staffName.Text;
+           
             string Position = staffPosition.Text;
             if (!int.TryParse(staffContact.Text, out int contact))
             {
@@ -102,6 +103,7 @@ namespace ISEAD_Project
 
                     cmd.Parameters.AddWithValue("@name", Name);
                     cmd.Parameters.AddWithValue("@gen", gender);
+                    cmd.Parameters.AddWithValue("@con", contact);
                     cmd.Parameters.AddWithValue("@dob", dobs);
                     cmd.Parameters.AddWithValue("@position", Position);
                     cmd.Parameters.AddWithValue("@salary", salaey);

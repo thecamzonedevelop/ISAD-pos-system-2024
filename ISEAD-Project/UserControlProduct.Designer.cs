@@ -30,6 +30,8 @@
         {
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -45,10 +47,9 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             label1 = new Label();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            btnClear = new Guna.UI2.WinForms.Guna2Button();
             deletePro = new Guna.UI2.WinForms.Guna2Button();
             updatePro = new Guna.UI2.WinForms.Guna2Button();
             savePro = new Guna.UI2.WinForms.Guna2Button();
@@ -63,7 +64,6 @@
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             proName = new Guna.UI2.WinForms.Guna2TextBox();
             productLiast = new Guna.UI2.WinForms.Guna2DataGridView();
-            btnClear = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)productLiast).BeginInit();
             SuspendLayout();
@@ -103,6 +103,27 @@
             guna2Panel1.Size = new Size(1320, 308);
             guna2Panel1.TabIndex = 3;
             guna2Panel1.Paint += guna2Panel1_Paint;
+            // 
+            // btnClear
+            // 
+            btnClear.BorderRadius = 12;
+            btnClear.CustomizableEdges = customizableEdges1;
+            btnClear.DisabledState.BorderColor = Color.DarkGray;
+            btnClear.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnClear.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnClear.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnClear.FillColor = Color.White;
+            btnClear.Font = new Font("Segoe UI", 9F);
+            btnClear.ForeColor = Color.Red;
+            btnClear.HoverState.FillColor = Color.White;
+            btnClear.HoverState.ForeColor = Color.Red;
+            btnClear.Location = new Point(750, 232);
+            btnClear.Name = "btnClear";
+            btnClear.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnClear.Size = new Size(101, 45);
+            btnClear.TabIndex = 25;
+            btnClear.Text = "Clear Form";
+            btnClear.Click += btnClear_Click;
             // 
             // deletePro
             // 
@@ -358,27 +379,6 @@
             productLiast.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             productLiast.CellClick += productLiast_CellContentClick;
             productLiast.CellContentClick += productLiast_CellContentClick;
-            // 
-            // btnClear
-            // 
-            btnClear.BorderRadius = 12;
-            btnClear.CustomizableEdges = customizableEdges1;
-            btnClear.DisabledState.BorderColor = Color.DarkGray;
-            btnClear.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnClear.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnClear.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnClear.FillColor = Color.White;
-            btnClear.Font = new Font("Segoe UI", 9F);
-            btnClear.ForeColor = Color.Red;
-            btnClear.HoverState.FillColor = Color.White;
-            btnClear.HoverState.ForeColor = Color.Red;
-            btnClear.Location = new Point(750, 232);
-            btnClear.Name = "btnClear";
-            btnClear.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnClear.Size = new Size(101, 45);
-            btnClear.TabIndex = 25;
-            btnClear.Text = "Clear Form";
-            btnClear.Click += btnClear_Click;
             // 
             // UserControlProduct
             // 

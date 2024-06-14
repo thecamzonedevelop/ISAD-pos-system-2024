@@ -31,6 +31,11 @@
             components = new System.ComponentModel.Container();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -57,13 +62,10 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             staff = new Guna.UI2.WinForms.Guna2Button();
             btnLogout = new Guna.UI2.WinForms.Guna2Button();
@@ -84,8 +86,6 @@
             timeHeader = new Guna.UI2.WinForms.Guna2HtmlLabel();
             PanelContener = new Guna.UI2.WinForms.Guna2Panel();
             timer1 = new System.Windows.Forms.Timer(components);
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             guna2Panel2.SuspendLayout();
@@ -123,6 +123,70 @@
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges32;
             guna2Panel1.Size = new Size(265, 959);
             guna2Panel1.TabIndex = 0;
+            // 
+            // guna2Button3
+            // 
+            guna2Button3.BorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            guna2Button3.CheckedState.BorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button3.CheckedState.CustomBorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button3.CheckedState.FillColor = Color.FromArgb(248, 248, 248);
+            guna2Button3.CustomBorderThickness = new Padding(9, 0, 0, 0);
+            guna2Button3.CustomizableEdges = customizableEdges5;
+            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button3.FillColor = Color.FromArgb(248, 248, 248);
+            guna2Button3.FocusedColor = Color.FromArgb(86, 128, 239);
+            guna2Button3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button3.ForeColor = Color.FromArgb(87, 87, 87);
+            guna2Button3.HoverState.BorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button3.HoverState.CustomBorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button3.HoverState.FillColor = Color.White;
+            guna2Button3.Image = (Image)resources.GetObject("guna2Button3.Image");
+            guna2Button3.ImageAlign = HorizontalAlignment.Left;
+            guna2Button3.ImageSize = new Size(26, 26);
+            guna2Button3.Location = new Point(12, 680);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2Button3.Size = new Size(250, 45);
+            guna2Button3.TabIndex = 14;
+            guna2Button3.Text = "Invoices";
+            guna2Button3.TextAlign = HorizontalAlignment.Left;
+            guna2Button3.TextOffset = new Point(10, 0);
+            // 
+            // guna2Button2
+            // 
+            guna2Button2.BorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            guna2Button2.CheckedState.BorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button2.CheckedState.CustomBorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button2.CheckedState.FillColor = Color.FromArgb(248, 248, 248);
+            guna2Button2.CustomBorderThickness = new Padding(9, 0, 0, 0);
+            guna2Button2.CustomizableEdges = customizableEdges7;
+            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button2.FillColor = Color.FromArgb(248, 248, 248);
+            guna2Button2.FocusedColor = Color.FromArgb(86, 128, 239);
+            guna2Button2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2Button2.ForeColor = Color.FromArgb(87, 87, 87);
+            guna2Button2.HoverState.BorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button2.HoverState.CustomBorderColor = Color.FromArgb(86, 128, 239);
+            guna2Button2.HoverState.FillColor = Color.White;
+            guna2Button2.Image = (Image)resources.GetObject("guna2Button2.Image");
+            guna2Button2.ImageAlign = HorizontalAlignment.Left;
+            guna2Button2.ImageSize = new Size(26, 26);
+            guna2Button2.Location = new Point(12, 629);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button2.Size = new Size(250, 45);
+            guna2Button2.TabIndex = 13;
+            guna2Button2.Text = "Reports";
+            guna2Button2.TextAlign = HorizontalAlignment.Left;
+            guna2Button2.TextOffset = new Point(10, 0);
             // 
             // guna2Button1
             // 
@@ -523,70 +587,6 @@
             // timer1
             // 
             timer1.Tick += timer1_Tick;
-            // 
-            // guna2Button2
-            // 
-            guna2Button2.BorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2Button2.CheckedState.BorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button2.CheckedState.CustomBorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button2.CheckedState.FillColor = Color.FromArgb(248, 248, 248);
-            guna2Button2.CustomBorderThickness = new Padding(9, 0, 0, 0);
-            guna2Button2.CustomizableEdges = customizableEdges7;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.FromArgb(248, 248, 248);
-            guna2Button2.FocusedColor = Color.FromArgb(86, 128, 239);
-            guna2Button2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button2.ForeColor = Color.FromArgb(87, 87, 87);
-            guna2Button2.HoverState.BorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button2.HoverState.CustomBorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button2.HoverState.FillColor = Color.White;
-            guna2Button2.Image = (Image)resources.GetObject("guna2Button2.Image");
-            guna2Button2.ImageAlign = HorizontalAlignment.Left;
-            guna2Button2.ImageSize = new Size(26, 26);
-            guna2Button2.Location = new Point(12, 629);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Button2.Size = new Size(250, 45);
-            guna2Button2.TabIndex = 13;
-            guna2Button2.Text = "Reports";
-            guna2Button2.TextAlign = HorizontalAlignment.Left;
-            guna2Button2.TextOffset = new Point(10, 0);
-            // 
-            // guna2Button3
-            // 
-            guna2Button3.BorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            guna2Button3.CheckedState.BorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button3.CheckedState.CustomBorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button3.CheckedState.FillColor = Color.FromArgb(248, 248, 248);
-            guna2Button3.CustomBorderThickness = new Padding(9, 0, 0, 0);
-            guna2Button3.CustomizableEdges = customizableEdges5;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = Color.FromArgb(248, 248, 248);
-            guna2Button3.FocusedColor = Color.FromArgb(86, 128, 239);
-            guna2Button3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button3.ForeColor = Color.FromArgb(87, 87, 87);
-            guna2Button3.HoverState.BorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button3.HoverState.CustomBorderColor = Color.FromArgb(86, 128, 239);
-            guna2Button3.HoverState.FillColor = Color.White;
-            guna2Button3.Image = (Image)resources.GetObject("guna2Button3.Image");
-            guna2Button3.ImageAlign = HorizontalAlignment.Left;
-            guna2Button3.ImageSize = new Size(26, 26);
-            guna2Button3.Location = new Point(12, 680);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button3.Size = new Size(250, 45);
-            guna2Button3.TabIndex = 14;
-            guna2Button3.Text = "Invoices";
-            guna2Button3.TextAlign = HorizontalAlignment.Left;
-            guna2Button3.TextOffset = new Point(10, 0);
             // 
             // HomeForm
             // 

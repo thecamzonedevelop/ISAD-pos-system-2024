@@ -28,6 +28,9 @@
     <Compile Update="UserControlProduct.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControlProductCart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControlStaff.cs">
       <SubType>UserControl</SubType>
     </Compile>

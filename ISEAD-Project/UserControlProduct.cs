@@ -225,6 +225,11 @@ namespace ISEAD_Project
         {
             CLearForm();
         }
+
+        private void guna2CircleProgressBar1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

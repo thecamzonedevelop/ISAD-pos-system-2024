@@ -137,8 +137,7 @@ namespace ISEAD_Project
                 DataGridViewRow selectedRow = staffLiast.SelectedRows[0];
                 staffName.Text = selectedRow.Cells["Name"].Value.ToString();
                 staffPosition.Text = selectedRow.Cells["Position"].Value.ToString();
-
-
+                staffContact.Text = selectedRow.Cells["Contact"].Value.ToString();
                 staffSalry.Text = selectedRow.Cells["Salary"].Value.ToString();
 
                 // Set jobStatus checkbox
@@ -200,6 +199,11 @@ namespace ISEAD_Project
                 MessageBox.Show("Invalid salary value.");
                 return;
             }
+            if (!int.TryParse(staffContact.Text, out int contact))
+            {
+                MessageBox.Show("Invalid contact value.");
+                return;
+            }
             string dobs = staffDob.Text;
             if (string.IsNullOrWhiteSpace(dobs))
             {
@@ -236,6 +240,7 @@ namespace ISEAD_Project
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@id", id);
                     cmd.Parameters.AddWithValue("@name", Name);
+                    cmd.Parameters.AddWithValue("@con", contact);
                     cmd.Parameters.AddWithValue("@position", position);
                     cmd.Parameters.AddWithValue("@salary", salary);
                     cmd.Parameters.AddWithValue("@dob", dobs);

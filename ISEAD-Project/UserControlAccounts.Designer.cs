@@ -61,52 +61,52 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             staffList = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             btnClear = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            guna2RadioButton2 = new Guna.UI2.WinForms.Guna2RadioButton();
-            guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
-            guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
+            deleteAccount = new Guna.UI2.WinForms.Guna2Button();
+            updateAccount = new Guna.UI2.WinForms.Guna2Button();
+            saveAccount = new Guna.UI2.WinForms.Guna2Button();
+            roleStaff = new Guna.UI2.WinForms.Guna2RadioButton();
+            roleAdmin = new Guna.UI2.WinForms.Guna2RadioButton();
+            confirmPassword = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
+            passwrod = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
+            username = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            name = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            btnSearchStaff = new Guna.UI2.WinForms.Guna2Button();
+            staffName = new Guna.UI2.WinForms.Guna2TextBox();
+            staffId = new Guna.UI2.WinForms.Guna2TextBox();
             guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            userAccountList = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            btnSearchaccount = new Guna.UI2.WinForms.Guna2Button();
             guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)staffList).BeginInit();
             guna2Panel2.SuspendLayout();
             guna2Panel3.SuspendLayout();
             guna2Panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)userAccountList).BeginInit();
             guna2Panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -114,7 +114,7 @@
             guna2Panel1.BackColor = Color.White;
             guna2Panel1.Controls.Add(staffList);
             guna2Panel1.CustomizableEdges = customizableEdges1;
-            guna2Panel1.Location = new Point(47, 103);
+            guna2Panel1.Location = new Point(38, 94);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Panel1.Size = new Size(712, 790);
@@ -181,22 +181,22 @@
             guna2Panel2.BackColor = Color.White;
             guna2Panel2.Controls.Add(guna2HtmlLabel8);
             guna2Panel2.Controls.Add(btnClear);
-            guna2Panel2.Controls.Add(guna2Button5);
-            guna2Panel2.Controls.Add(guna2Button4);
-            guna2Panel2.Controls.Add(guna2Button3);
-            guna2Panel2.Controls.Add(guna2RadioButton2);
-            guna2Panel2.Controls.Add(guna2RadioButton1);
-            guna2Panel2.Controls.Add(guna2TextBox7);
+            guna2Panel2.Controls.Add(deleteAccount);
+            guna2Panel2.Controls.Add(updateAccount);
+            guna2Panel2.Controls.Add(saveAccount);
+            guna2Panel2.Controls.Add(roleStaff);
+            guna2Panel2.Controls.Add(roleAdmin);
+            guna2Panel2.Controls.Add(confirmPassword);
             guna2Panel2.Controls.Add(guna2HtmlLabel7);
             guna2Panel2.Controls.Add(guna2HtmlLabel6);
-            guna2Panel2.Controls.Add(guna2TextBox6);
+            guna2Panel2.Controls.Add(passwrod);
             guna2Panel2.Controls.Add(guna2HtmlLabel5);
-            guna2Panel2.Controls.Add(guna2TextBox5);
+            guna2Panel2.Controls.Add(username);
             guna2Panel2.Controls.Add(guna2HtmlLabel4);
-            guna2Panel2.Controls.Add(guna2TextBox4);
+            guna2Panel2.Controls.Add(name);
             guna2Panel2.Controls.Add(guna2HtmlLabel3);
             guna2Panel2.CustomizableEdges = customizableEdges19;
-            guna2Panel2.Location = new Point(787, 46);
+            guna2Panel2.Location = new Point(787, 37);
             guna2Panel2.Name = "guna2Panel2";
             guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Panel2.Size = new Size(568, 318);
@@ -232,116 +232,116 @@
             btnClear.TabIndex = 25;
             btnClear.Text = "Clear Form";
             // 
-            // guna2Button5
+            // deleteAccount
             // 
-            guna2Button5.BorderRadius = 8;
-            guna2Button5.CustomizableEdges = customizableEdges5;
-            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button5.FillColor = Color.FromArgb(255, 128, 128);
-            guna2Button5.Font = new Font("Segoe UI", 9F);
-            guna2Button5.ForeColor = Color.White;
-            guna2Button5.Location = new Point(213, 263);
-            guna2Button5.Name = "guna2Button5";
-            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button5.Size = new Size(98, 39);
-            guna2Button5.TabIndex = 13;
-            guna2Button5.Text = "Delete";
+            deleteAccount.BorderRadius = 8;
+            deleteAccount.CustomizableEdges = customizableEdges5;
+            deleteAccount.DisabledState.BorderColor = Color.DarkGray;
+            deleteAccount.DisabledState.CustomBorderColor = Color.DarkGray;
+            deleteAccount.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            deleteAccount.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            deleteAccount.FillColor = Color.FromArgb(255, 128, 128);
+            deleteAccount.Font = new Font("Segoe UI", 9F);
+            deleteAccount.ForeColor = Color.White;
+            deleteAccount.Location = new Point(213, 263);
+            deleteAccount.Name = "deleteAccount";
+            deleteAccount.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            deleteAccount.Size = new Size(98, 39);
+            deleteAccount.TabIndex = 13;
+            deleteAccount.Text = "Delete";
             // 
-            // guna2Button4
+            // updateAccount
             // 
-            guna2Button4.BorderRadius = 8;
-            guna2Button4.CustomizableEdges = customizableEdges7;
-            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button4.FillColor = Color.FromArgb(255, 192, 128);
-            guna2Button4.Font = new Font("Segoe UI", 9F);
-            guna2Button4.ForeColor = Color.White;
-            guna2Button4.Location = new Point(328, 263);
-            guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Button4.Size = new Size(98, 39);
-            guna2Button4.TabIndex = 12;
-            guna2Button4.Text = "Update";
+            updateAccount.BorderRadius = 8;
+            updateAccount.CustomizableEdges = customizableEdges7;
+            updateAccount.DisabledState.BorderColor = Color.DarkGray;
+            updateAccount.DisabledState.CustomBorderColor = Color.DarkGray;
+            updateAccount.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            updateAccount.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            updateAccount.FillColor = Color.FromArgb(255, 192, 128);
+            updateAccount.Font = new Font("Segoe UI", 9F);
+            updateAccount.ForeColor = Color.White;
+            updateAccount.Location = new Point(328, 263);
+            updateAccount.Name = "updateAccount";
+            updateAccount.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            updateAccount.Size = new Size(98, 39);
+            updateAccount.TabIndex = 12;
+            updateAccount.Text = "Update";
             // 
-            // guna2Button3
+            // saveAccount
             // 
-            guna2Button3.BorderRadius = 8;
-            guna2Button3.CustomizableEdges = customizableEdges9;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.Font = new Font("Segoe UI", 9F);
-            guna2Button3.ForeColor = Color.White;
-            guna2Button3.Location = new Point(439, 263);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Button3.Size = new Size(101, 39);
-            guna2Button3.TabIndex = 11;
-            guna2Button3.Text = "Save";
+            saveAccount.BorderRadius = 8;
+            saveAccount.CustomizableEdges = customizableEdges9;
+            saveAccount.DisabledState.BorderColor = Color.DarkGray;
+            saveAccount.DisabledState.CustomBorderColor = Color.DarkGray;
+            saveAccount.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            saveAccount.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            saveAccount.Font = new Font("Segoe UI", 9F);
+            saveAccount.ForeColor = Color.White;
+            saveAccount.Location = new Point(439, 263);
+            saveAccount.Name = "saveAccount";
+            saveAccount.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            saveAccount.Size = new Size(101, 39);
+            saveAccount.TabIndex = 11;
+            saveAccount.Text = "Save";
             // 
-            // guna2RadioButton2
+            // roleStaff
             // 
-            guna2RadioButton2.AutoSize = true;
-            guna2RadioButton2.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2RadioButton2.CheckedState.BorderThickness = 0;
-            guna2RadioButton2.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
-            guna2RadioButton2.CheckedState.InnerColor = Color.White;
-            guna2RadioButton2.CheckedState.InnerOffset = -4;
-            guna2RadioButton2.Location = new Point(111, 152);
-            guna2RadioButton2.Name = "guna2RadioButton2";
-            guna2RadioButton2.Size = new Size(49, 19);
-            guna2RadioButton2.TabIndex = 10;
-            guna2RadioButton2.Text = "Staff";
-            guna2RadioButton2.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
-            guna2RadioButton2.UncheckedState.BorderThickness = 2;
-            guna2RadioButton2.UncheckedState.FillColor = Color.Transparent;
-            guna2RadioButton2.UncheckedState.InnerColor = Color.Transparent;
+            roleStaff.AutoSize = true;
+            roleStaff.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
+            roleStaff.CheckedState.BorderThickness = 0;
+            roleStaff.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
+            roleStaff.CheckedState.InnerColor = Color.White;
+            roleStaff.CheckedState.InnerOffset = -4;
+            roleStaff.Location = new Point(111, 152);
+            roleStaff.Name = "roleStaff";
+            roleStaff.Size = new Size(49, 19);
+            roleStaff.TabIndex = 10;
+            roleStaff.Text = "Staff";
+            roleStaff.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            roleStaff.UncheckedState.BorderThickness = 2;
+            roleStaff.UncheckedState.FillColor = Color.Transparent;
+            roleStaff.UncheckedState.InnerColor = Color.Transparent;
             // 
-            // guna2RadioButton1
+            // roleAdmin
             // 
-            guna2RadioButton1.AutoSize = true;
-            guna2RadioButton1.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2RadioButton1.CheckedState.BorderThickness = 0;
-            guna2RadioButton1.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
-            guna2RadioButton1.CheckedState.InnerColor = Color.White;
-            guna2RadioButton1.CheckedState.InnerOffset = -4;
-            guna2RadioButton1.Location = new Point(33, 152);
-            guna2RadioButton1.Name = "guna2RadioButton1";
-            guna2RadioButton1.Size = new Size(61, 19);
-            guna2RadioButton1.TabIndex = 9;
-            guna2RadioButton1.Text = "Admin";
-            guna2RadioButton1.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
-            guna2RadioButton1.UncheckedState.BorderThickness = 2;
-            guna2RadioButton1.UncheckedState.FillColor = Color.Transparent;
-            guna2RadioButton1.UncheckedState.InnerColor = Color.Transparent;
+            roleAdmin.AutoSize = true;
+            roleAdmin.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
+            roleAdmin.CheckedState.BorderThickness = 0;
+            roleAdmin.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
+            roleAdmin.CheckedState.InnerColor = Color.White;
+            roleAdmin.CheckedState.InnerOffset = -4;
+            roleAdmin.Location = new Point(33, 152);
+            roleAdmin.Name = "roleAdmin";
+            roleAdmin.Size = new Size(61, 19);
+            roleAdmin.TabIndex = 9;
+            roleAdmin.Text = "Admin";
+            roleAdmin.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            roleAdmin.UncheckedState.BorderThickness = 2;
+            roleAdmin.UncheckedState.FillColor = Color.Transparent;
+            roleAdmin.UncheckedState.InnerColor = Color.Transparent;
             // 
-            // guna2TextBox7
+            // confirmPassword
             // 
-            guna2TextBox7.BorderRadius = 8;
-            guna2TextBox7.CustomizableEdges = customizableEdges11;
-            guna2TextBox7.DefaultText = "";
-            guna2TextBox7.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox7.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox7.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox7.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox7.Font = new Font("Segoe UI", 9F);
-            guna2TextBox7.ForeColor = Color.Black;
-            guna2TextBox7.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox7.Location = new Point(295, 207);
-            guna2TextBox7.Name = "guna2TextBox7";
-            guna2TextBox7.PasswordChar = '\0';
-            guna2TextBox7.PlaceholderText = "Enter staff username";
-            guna2TextBox7.SelectedText = "";
-            guna2TextBox7.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2TextBox7.Size = new Size(245, 36);
-            guna2TextBox7.TabIndex = 8;
+            confirmPassword.BorderRadius = 8;
+            confirmPassword.CustomizableEdges = customizableEdges11;
+            confirmPassword.DefaultText = "";
+            confirmPassword.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            confirmPassword.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            confirmPassword.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            confirmPassword.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            confirmPassword.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            confirmPassword.Font = new Font("Segoe UI", 9F);
+            confirmPassword.ForeColor = Color.Black;
+            confirmPassword.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            confirmPassword.Location = new Point(295, 207);
+            confirmPassword.Name = "confirmPassword";
+            confirmPassword.PasswordChar = '\0';
+            confirmPassword.PlaceholderText = "Enter staff username";
+            confirmPassword.SelectedText = "";
+            confirmPassword.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            confirmPassword.Size = new Size(245, 36);
+            confirmPassword.TabIndex = 8;
             // 
             // guna2HtmlLabel7
             // 
@@ -363,27 +363,27 @@
             guna2HtmlLabel6.TabIndex = 6;
             guna2HtmlLabel6.Text = "Roles";
             // 
-            // guna2TextBox6
+            // passwrod
             // 
-            guna2TextBox6.BorderRadius = 8;
-            guna2TextBox6.CustomizableEdges = customizableEdges13;
-            guna2TextBox6.DefaultText = "";
-            guna2TextBox6.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox6.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox6.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox6.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox6.Font = new Font("Segoe UI", 9F);
-            guna2TextBox6.ForeColor = Color.Black;
-            guna2TextBox6.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox6.Location = new Point(33, 207);
-            guna2TextBox6.Name = "guna2TextBox6";
-            guna2TextBox6.PasswordChar = '\0';
-            guna2TextBox6.PlaceholderText = "Enter staff username";
-            guna2TextBox6.SelectedText = "";
-            guna2TextBox6.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2TextBox6.Size = new Size(245, 36);
-            guna2TextBox6.TabIndex = 5;
+            passwrod.BorderRadius = 8;
+            passwrod.CustomizableEdges = customizableEdges13;
+            passwrod.DefaultText = "";
+            passwrod.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            passwrod.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            passwrod.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            passwrod.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            passwrod.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            passwrod.Font = new Font("Segoe UI", 9F);
+            passwrod.ForeColor = Color.Black;
+            passwrod.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            passwrod.Location = new Point(33, 207);
+            passwrod.Name = "passwrod";
+            passwrod.PasswordChar = '\0';
+            passwrod.PlaceholderText = "Enter staff username";
+            passwrod.SelectedText = "";
+            passwrod.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            passwrod.Size = new Size(245, 36);
+            passwrod.TabIndex = 5;
             // 
             // guna2HtmlLabel5
             // 
@@ -395,27 +395,27 @@
             guna2HtmlLabel5.TabIndex = 4;
             guna2HtmlLabel5.Text = "Password";
             // 
-            // guna2TextBox5
+            // username
             // 
-            guna2TextBox5.BorderRadius = 8;
-            guna2TextBox5.CustomizableEdges = customizableEdges15;
-            guna2TextBox5.DefaultText = "";
-            guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox5.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox5.Font = new Font("Segoe UI", 9F);
-            guna2TextBox5.ForeColor = Color.Black;
-            guna2TextBox5.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox5.Location = new Point(295, 75);
-            guna2TextBox5.Name = "guna2TextBox5";
-            guna2TextBox5.PasswordChar = '\0';
-            guna2TextBox5.PlaceholderText = "Enter account username";
-            guna2TextBox5.SelectedText = "";
-            guna2TextBox5.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2TextBox5.Size = new Size(245, 36);
-            guna2TextBox5.TabIndex = 3;
+            username.BorderRadius = 8;
+            username.CustomizableEdges = customizableEdges15;
+            username.DefaultText = "";
+            username.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            username.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            username.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            username.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            username.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            username.Font = new Font("Segoe UI", 9F);
+            username.ForeColor = Color.Black;
+            username.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            username.Location = new Point(295, 75);
+            username.Name = "username";
+            username.PasswordChar = '\0';
+            username.PlaceholderText = "Enter account username";
+            username.SelectedText = "";
+            username.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            username.Size = new Size(245, 36);
+            username.TabIndex = 3;
             // 
             // guna2HtmlLabel4
             // 
@@ -427,27 +427,27 @@
             guna2HtmlLabel4.TabIndex = 2;
             guna2HtmlLabel4.Text = "Username";
             // 
-            // guna2TextBox4
+            // name
             // 
-            guna2TextBox4.BorderRadius = 8;
-            guna2TextBox4.CustomizableEdges = customizableEdges17;
-            guna2TextBox4.DefaultText = "";
-            guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Font = new Font("Segoe UI", 9F);
-            guna2TextBox4.ForeColor = Color.Black;
-            guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new Point(33, 75);
-            guna2TextBox4.Name = "guna2TextBox4";
-            guna2TextBox4.PasswordChar = '\0';
-            guna2TextBox4.PlaceholderText = "Enter staff name";
-            guna2TextBox4.SelectedText = "";
-            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2TextBox4.Size = new Size(245, 36);
-            guna2TextBox4.TabIndex = 1;
+            name.BorderRadius = 8;
+            name.CustomizableEdges = customizableEdges17;
+            name.DefaultText = "";
+            name.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            name.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            name.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            name.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            name.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            name.Font = new Font("Segoe UI", 9F);
+            name.ForeColor = Color.Black;
+            name.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            name.Location = new Point(33, 75);
+            name.Name = "name";
+            name.PasswordChar = '\0';
+            name.PlaceholderText = "Enter staff name";
+            name.SelectedText = "";
+            name.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            name.Size = new Size(245, 36);
+            name.TabIndex = 1;
             // 
             // guna2HtmlLabel3
             // 
@@ -464,11 +464,11 @@
             guna2Panel3.BackColor = Color.White;
             guna2Panel3.Controls.Add(guna2HtmlLabel2);
             guna2Panel3.Controls.Add(guna2HtmlLabel1);
-            guna2Panel3.Controls.Add(guna2Button1);
-            guna2Panel3.Controls.Add(guna2TextBox2);
-            guna2Panel3.Controls.Add(guna2TextBox1);
+            guna2Panel3.Controls.Add(btnSearchStaff);
+            guna2Panel3.Controls.Add(staffName);
+            guna2Panel3.Controls.Add(staffId);
             guna2Panel3.CustomizableEdges = customizableEdges27;
-            guna2Panel3.Location = new Point(47, 46);
+            guna2Panel3.Location = new Point(38, 37);
             guna2Panel3.Name = "guna2Panel3";
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges28;
             guna2Panel3.Size = new Size(712, 56);
@@ -494,68 +494,69 @@
             guna2HtmlLabel1.TabIndex = 3;
             guna2HtmlLabel1.Text = "ID";
             // 
-            // guna2Button1
+            // btnSearchStaff
             // 
-            guna2Button1.CustomizableEdges = customizableEdges21;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.Font = new Font("Segoe UI", 9F);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(591, 15);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2Button1.Size = new Size(104, 31);
-            guna2Button1.TabIndex = 2;
-            guna2Button1.Text = "Search";
+            btnSearchStaff.CustomizableEdges = customizableEdges21;
+            btnSearchStaff.DisabledState.BorderColor = Color.DarkGray;
+            btnSearchStaff.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSearchStaff.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSearchStaff.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSearchStaff.Font = new Font("Segoe UI", 9F);
+            btnSearchStaff.ForeColor = Color.White;
+            btnSearchStaff.Location = new Point(591, 15);
+            btnSearchStaff.Name = "btnSearchStaff";
+            btnSearchStaff.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            btnSearchStaff.Size = new Size(104, 31);
+            btnSearchStaff.TabIndex = 2;
+            btnSearchStaff.Text = "Search";
+            btnSearchStaff.Click += btnSearchStaff_Click;
             // 
-            // guna2TextBox2
+            // staffName
             // 
-            guna2TextBox2.CustomizableEdges = customizableEdges23;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Segoe UI", 9F);
-            guna2TextBox2.ForeColor = Color.Black;
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(303, 15);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PasswordChar = '\0';
-            guna2TextBox2.PlaceholderText = "Search by Name";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2TextBox2.Size = new Size(282, 31);
-            guna2TextBox2.TabIndex = 1;
+            staffName.CustomizableEdges = customizableEdges23;
+            staffName.DefaultText = "";
+            staffName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            staffName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            staffName.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            staffName.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            staffName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            staffName.Font = new Font("Segoe UI", 9F);
+            staffName.ForeColor = Color.Black;
+            staffName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            staffName.Location = new Point(303, 15);
+            staffName.Name = "staffName";
+            staffName.PasswordChar = '\0';
+            staffName.PlaceholderText = "Search by Name";
+            staffName.SelectedText = "";
+            staffName.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            staffName.Size = new Size(282, 31);
+            staffName.TabIndex = 1;
             // 
-            // guna2TextBox1
+            // staffId
             // 
-            guna2TextBox1.CustomizableEdges = customizableEdges25;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F);
-            guna2TextBox1.ForeColor = Color.Black;
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(61, 14);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "Search by ID";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            guna2TextBox1.Size = new Size(168, 32);
-            guna2TextBox1.TabIndex = 0;
+            staffId.CustomizableEdges = customizableEdges25;
+            staffId.DefaultText = "";
+            staffId.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            staffId.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            staffId.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            staffId.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            staffId.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            staffId.Font = new Font("Segoe UI", 9F);
+            staffId.ForeColor = Color.Black;
+            staffId.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            staffId.Location = new Point(61, 14);
+            staffId.Name = "staffId";
+            staffId.PasswordChar = '\0';
+            staffId.PlaceholderText = "Search by ID";
+            staffId.SelectedText = "";
+            staffId.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            staffId.Size = new Size(168, 32);
+            staffId.TabIndex = 0;
             // 
             // guna2Panel4
             // 
             guna2Panel4.BackColor = Color.White;
-            guna2Panel4.Controls.Add(guna2DataGridView1);
+            guna2Panel4.Controls.Add(userAccountList);
             guna2Panel4.CustomizableEdges = customizableEdges29;
             guna2Panel4.Location = new Point(787, 428);
             guna2Panel4.Name = "guna2Panel4";
@@ -563,10 +564,65 @@
             guna2Panel4.Size = new Size(568, 465);
             guna2Panel4.TabIndex = 2;
             // 
+            // userAccountList
+            // 
+            userAccountList.AllowUserToAddRows = false;
+            userAccountList.AllowUserToDeleteRows = false;
+            userAccountList.AllowUserToOrderColumns = true;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            userAccountList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            userAccountList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            userAccountList.ColumnHeadersHeight = 40;
+            userAccountList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.White;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            userAccountList.DefaultCellStyle = dataGridViewCellStyle6;
+            userAccountList.Dock = DockStyle.Fill;
+            userAccountList.GridColor = Color.FromArgb(231, 229, 255);
+            userAccountList.Location = new Point(0, 0);
+            userAccountList.Name = "userAccountList";
+            userAccountList.ReadOnly = true;
+            userAccountList.RowHeadersVisible = false;
+            userAccountList.Size = new Size(568, 465);
+            userAccountList.TabIndex = 0;
+            userAccountList.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            userAccountList.ThemeStyle.AlternatingRowsStyle.Font = null;
+            userAccountList.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            userAccountList.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            userAccountList.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            userAccountList.ThemeStyle.BackColor = Color.White;
+            userAccountList.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            userAccountList.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            userAccountList.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            userAccountList.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            userAccountList.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            userAccountList.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            userAccountList.ThemeStyle.HeaderStyle.Height = 40;
+            userAccountList.ThemeStyle.ReadOnly = true;
+            userAccountList.ThemeStyle.RowsStyle.BackColor = Color.White;
+            userAccountList.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            userAccountList.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            userAccountList.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            userAccountList.ThemeStyle.RowsStyle.Height = 25;
+            userAccountList.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            userAccountList.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            // 
             // guna2Panel5
             // 
             guna2Panel5.BackColor = Color.White;
-            guna2Panel5.Controls.Add(guna2Button2);
+            guna2Panel5.Controls.Add(btnSearchaccount);
             guna2Panel5.Controls.Add(guna2TextBox3);
             guna2Panel5.CustomizableEdges = customizableEdges35;
             guna2Panel5.Location = new Point(787, 378);
@@ -575,21 +631,21 @@
             guna2Panel5.Size = new Size(568, 50);
             guna2Panel5.TabIndex = 3;
             // 
-            // guna2Button2
+            // btnSearchaccount
             // 
-            guna2Button2.CustomizableEdges = customizableEdges31;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.Font = new Font("Segoe UI", 9F);
-            guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(458, 13);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            guna2Button2.Size = new Size(107, 37);
-            guna2Button2.TabIndex = 2;
-            guna2Button2.Text = "Search";
+            btnSearchaccount.CustomizableEdges = customizableEdges31;
+            btnSearchaccount.DisabledState.BorderColor = Color.DarkGray;
+            btnSearchaccount.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSearchaccount.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSearchaccount.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSearchaccount.Font = new Font("Segoe UI", 9F);
+            btnSearchaccount.ForeColor = Color.White;
+            btnSearchaccount.Location = new Point(458, 13);
+            btnSearchaccount.Name = "btnSearchaccount";
+            btnSearchaccount.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            btnSearchaccount.Size = new Size(107, 37);
+            btnSearchaccount.TabIndex = 2;
+            btnSearchaccount.Text = "Search";
             // 
             // guna2TextBox3
             // 
@@ -611,60 +667,6 @@
             guna2TextBox3.Size = new Size(179, 37);
             guna2TextBox3.TabIndex = 1;
             // 
-            // guna2DataGridView1
-            // 
-            guna2DataGridView1.AllowUserToAddRows = false;
-            guna2DataGridView1.AllowUserToDeleteRows = false;
-            guna2DataGridView1.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle4.BackColor = Color.White;
-            guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle5.ForeColor = Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = Color.White;
-            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle6.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-            guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
-            guna2DataGridView1.Dock = DockStyle.Fill;
-            guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(0, 0);
-            guna2DataGridView1.Name = "guna2DataGridView1";
-            guna2DataGridView1.ReadOnly = true;
-            guna2DataGridView1.RowHeadersVisible = false;
-            guna2DataGridView1.Size = new Size(568, 465);
-            guna2DataGridView1.TabIndex = 0;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            guna2DataGridView1.ThemeStyle.ReadOnly = true;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            guna2DataGridView1.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            guna2DataGridView1.ThemeStyle.RowsStyle.Height = 25;
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            // 
             // UserControlAccounts
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -683,8 +685,8 @@
             guna2Panel3.ResumeLayout(false);
             guna2Panel3.PerformLayout();
             guna2Panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)userAccountList).EndInit();
             guna2Panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -692,33 +694,33 @@
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnSearchaccount;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
         private Guna.UI2.WinForms.Guna2DataGridView staffList;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2Button btnSearchStaff;
+        private Guna.UI2.WinForms.Guna2TextBox staffName;
+        private Guna.UI2.WinForms.Guna2TextBox staffId;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        private Guna.UI2.WinForms.Guna2TextBox passwrod;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
+        private Guna.UI2.WinForms.Guna2TextBox username;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton2;
-        private Guna.UI2.WinForms.Guna2RadioButton guna2RadioButton1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
+        private Guna.UI2.WinForms.Guna2TextBox name;
+        private Guna.UI2.WinForms.Guna2Button deleteAccount;
+        private Guna.UI2.WinForms.Guna2Button updateAccount;
+        private Guna.UI2.WinForms.Guna2Button saveAccount;
+        private Guna.UI2.WinForms.Guna2RadioButton roleStaff;
+        private Guna.UI2.WinForms.Guna2RadioButton roleAdmin;
+        private Guna.UI2.WinForms.Guna2TextBox confirmPassword;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2Button btnClear;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2DataGridView userAccountList;
     }
 }

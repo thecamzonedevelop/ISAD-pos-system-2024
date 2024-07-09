@@ -164,10 +164,17 @@ namespace ISEAD_Project
             if (Ulog.type == "admin")
             {
                 addUserControl(uc);
-            } else
+            }
+            else
             {
                 addUserControl(ucp);
             }
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            UserControlImport uc = new UserControlImport();
+            addUserControl(uc);
         }
     }
 }

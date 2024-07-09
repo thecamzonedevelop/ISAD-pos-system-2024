@@ -12,7 +12,7 @@
  Target Server Version : 16001000 (16.00.1000)
  File Encoding         : 65001
 
- Date: 19/06/2024 22:43:08
+ Date: 09/07/2024 18:22:48
 */
 
 
@@ -43,6 +43,12 @@ SET IDENTITY_INSERT [dbo].[tbCustomers] ON
 GO
 
 INSERT INTO [dbo].[tbCustomers] ([cusID], [cusName], [cusCon], [create_date], [update_date]) VALUES (N'1', N'U178-Navi', N'98474744', NULL, NULL)
+GO
+
+INSERT INTO [dbo].[tbCustomers] ([cusID], [cusName], [cusCon], [create_date], [update_date]) VALUES (N'3', N'U178-Navigg', N'984747443', NULL, NULL)
+GO
+
+INSERT INTO [dbo].[tbCustomers] ([cusID], [cusName], [cusCon], [create_date], [update_date]) VALUES (N'4', N'U158-Navigg', N'98474744', NULL, NULL)
 GO
 
 SET IDENTITY_INSERT [dbo].[tbCustomers] OFF
@@ -199,10 +205,22 @@ GO
 SET IDENTITY_INSERT [dbo].[tbProducts] ON
 GO
 
-INSERT INTO [dbo].[tbProducts] ([ProCode], [ProName], [qty], [UPIS], [create_date]) VALUES (N'2', N'Mintor 24" Dell SH-3232', N'8', N'199.0000', N'2024-06-14 18:19:13.000')
+INSERT INTO [dbo].[tbProducts] ([ProCode], [ProName], [qty], [UPIS], [create_date]) VALUES (N'3', N'Mintor 32" Dell SH-3232', N'32', N'400.0000', N'2024-06-14 18:19:19.000')
 GO
 
-INSERT INTO [dbo].[tbProducts] ([ProCode], [ProName], [qty], [UPIS], [create_date]) VALUES (N'3', N'Mintor 32" Dell SH-3232', N'2', N'400.0000', N'2024-06-14 18:19:19.000')
+INSERT INTO [dbo].[tbProducts] ([ProCode], [ProName], [qty], [UPIS], [create_date]) VALUES (N'5', N'Mintor 30" Dell SH-3232', N'20', N'379.0000', NULL)
+GO
+
+INSERT INTO [dbo].[tbProducts] ([ProCode], [ProName], [qty], [UPIS], [create_date]) VALUES (N'6', N'Mintor 24" Dell SH-3232', N'8', N'199.0000', NULL)
+GO
+
+INSERT INTO [dbo].[tbProducts] ([ProCode], [ProName], [qty], [UPIS], [create_date]) VALUES (N'7', N'Mintor 24" Dell SH-3232', N'8', N'199.0000', NULL)
+GO
+
+INSERT INTO [dbo].[tbProducts] ([ProCode], [ProName], [qty], [UPIS], [create_date]) VALUES (N'8', N'Mintor 32" Dell SH-3232', N'2', N'400.0000', NULL)
+GO
+
+INSERT INTO [dbo].[tbProducts] ([ProCode], [ProName], [qty], [UPIS], [create_date]) VALUES (N'9', N'Mintor 24" Dell SH-3232', N'8', N'199.0000', NULL)
 GO
 
 SET IDENTITY_INSERT [dbo].[tbProducts] OFF
@@ -245,6 +263,12 @@ GO
 INSERT INTO [dbo].[tbStaffs] ([staffID], [fullName], [gen], [Dob], [position], [salary], [stopwork], [create_date], [contact]) VALUES (N'6', N'Davit', N'M', N'2000-06-06', N'Admin', N'470.0000', N'1', N'2024-06-14 13:09:33.990', N'95550626')
 GO
 
+INSERT INTO [dbo].[tbStaffs] ([staffID], [fullName], [gen], [Dob], [position], [salary], [stopwork], [create_date], [contact]) VALUES (N'9', N'Davit', N'M', N'2010-10-10', N'Import', N'470.0000', N'1', N'2024-06-25 00:01:48.460', N'955506264')
+GO
+
+INSERT INTO [dbo].[tbStaffs] ([staffID], [fullName], [gen], [Dob], [position], [salary], [stopwork], [create_date], [contact]) VALUES (N'12', N'Kosol Nuna', N'M', N'2000-07-19', N'Import', N'230.0000', N'1', N'2024-06-27 23:13:22.650', N'985534934')
+GO
+
 SET IDENTITY_INSERT [dbo].[tbStaffs] OFF
 GO
 
@@ -275,10 +299,13 @@ GO
 SET IDENTITY_INSERT [dbo].[tbSuppliers] ON
 GO
 
-INSERT INTO [dbo].[tbSuppliers] ([supID], [supplier], [supAdd], [supCon], [create_date]) VALUES (N'101', N'Niki Company', N'USA, Alaska, St1262', N'18938434', NULL)
+INSERT INTO [dbo].[tbSuppliers] ([supID], [supplier], [supAdd], [supCon], [create_date]) VALUES (N'101', N'Niki Company', N'USA, Alaska, St126233', N'18938434', NULL)
 GO
 
 INSERT INTO [dbo].[tbSuppliers] ([supID], [supplier], [supAdd], [supCon], [create_date]) VALUES (N'103', N'Starbucks Company', N'Kanada, St172', N'1893344333', NULL)
+GO
+
+INSERT INTO [dbo].[tbSuppliers] ([supID], [supplier], [supAdd], [supCon], [create_date]) VALUES (N'104', N'Starbucks Company 2', N'Kanada, St172', N'1893344333', NULL)
 GO
 
 SET IDENTITY_INSERT [dbo].[tbSuppliers] OFF
@@ -381,9 +408,9 @@ IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbo].[Up
 	DROP PROCEDURE[dbo].[UpStaffE6]
 GO
 
-CREATE PROCEDURE [dbo].[UpStaffE6] (@id TINYINT, @name NVARCHAR(MAX), @gen CHAR, @dob DATE, @position VARCHAR(MAX), @salary MONEY, @stopwork BIT) AS
+CREATE PROCEDURE [dbo].[UpStaffE6] (@id TINYINT, @name NVARCHAR(MAX), @gen CHAR,@con INT, @dob DATE, @position VARCHAR(MAX), @salary MONEY, @stopwork BIT) AS
 UPDATE tbStaffs
-SET fullName = @name, gen = @gen, Dob = @dob, position = @position, salary = @salary, stopwork = @stopwork
+SET fullName = @name, gen = @gen, Dob = @dob,contact = @con, position = @position, salary = @salary, stopwork = @stopwork
 WHERE staffID = @id
 GO
 
@@ -587,6 +614,64 @@ GO
 
 
 -- ----------------------------
+-- procedure structure for DashboardStats
+-- ----------------------------
+IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbo].[DashboardStats]') AND type IN ('P', 'PC', 'RF', 'X'))
+	DROP PROCEDURE[dbo].[DashboardStats]
+GO
+
+CREATE PROCEDURE [dbo].[DashboardStats]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Total number of customers
+    DECLARE @TotalCustomers INT;
+    SELECT @TotalCustomers = COUNT(*) FROM tbCustomers;
+
+    -- Total number of products
+    DECLARE @TotalProducts INT;
+    SELECT @TotalProducts = COUNT(*) FROM tbProducts;
+
+    -- Total number of staff
+    DECLARE @TotalStaff INT;
+    SELECT @TotalStaff = COUNT(*) FROM tbStaffs;
+
+    -- Total number of payments
+    DECLARE @TotalPayments INT;
+    SELECT @TotalPayments = COUNT(*) FROM tbPayments;
+
+    -- Total number of suppliers
+    DECLARE @TotalSuppliers INT;
+    SELECT @TotalSuppliers = COUNT(*) FROM tbSuppliers;
+
+    -- Total number of users
+    DECLARE @TotalUsers INT;
+    SELECT @TotalUsers = COUNT(*) FROM tbUsers;
+
+    -- Total number of invoices
+    DECLARE @TotalInvoices INT;
+    SELECT @TotalInvoices = COUNT(*) FROM tbInvoices;
+
+    -- Total number of imports
+    DECLARE @TotalImports INT;
+    SELECT @TotalImports = COUNT(*) FROM tbImportsT;
+
+    -- Returning the results
+    SELECT 
+        @TotalCustomers AS TotalCustomers,
+        @TotalProducts AS TotalProducts,
+        @TotalStaff AS TotalStaff,
+        @TotalPayments AS TotalPayments,
+        @TotalSuppliers AS TotalSuppliers,
+        @TotalUsers AS TotalUsers,
+        @TotalInvoices AS TotalInvoices,
+        @TotalImports AS TotalImports;
+END;
+GO
+
+
+-- ----------------------------
 -- procedure structure for RCusE6
 -- ----------------------------
 IF EXISTS (SELECT * FROM sys.all_objects WHERE object_id = OBJECT_ID(N'[dbo].[RCusE6]') AND type IN ('P', 'PC', 'RF', 'X'))
@@ -724,7 +809,7 @@ GO
 -- ----------------------------
 -- Auto increment value for tbCustomers
 -- ----------------------------
-DBCC CHECKIDENT ('[dbo].[tbCustomers]', RESEED, 2)
+DBCC CHECKIDENT ('[dbo].[tbCustomers]', RESEED, 4)
 GO
 
 
@@ -797,7 +882,7 @@ GO
 -- ----------------------------
 -- Auto increment value for tbProducts
 -- ----------------------------
-DBCC CHECKIDENT ('[dbo].[tbProducts]', RESEED, 4)
+DBCC CHECKIDENT ('[dbo].[tbProducts]', RESEED, 9)
 GO
 
 
@@ -813,7 +898,7 @@ GO
 -- ----------------------------
 -- Auto increment value for tbStaffs
 -- ----------------------------
-DBCC CHECKIDENT ('[dbo].[tbStaffs]', RESEED, 7)
+DBCC CHECKIDENT ('[dbo].[tbStaffs]', RESEED, 12)
 GO
 
 
@@ -829,7 +914,7 @@ GO
 -- ----------------------------
 -- Auto increment value for tbSuppliers
 -- ----------------------------
-DBCC CHECKIDENT ('[dbo].[tbSuppliers]', RESEED, 103)
+DBCC CHECKIDENT ('[dbo].[tbSuppliers]', RESEED, 104)
 GO
 
 

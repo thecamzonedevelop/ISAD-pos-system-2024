@@ -53,6 +53,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControlAccounts));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -66,15 +69,12 @@
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControlAccounts));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             staffList = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
@@ -88,13 +88,14 @@
             confirmPassword = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            passwrod = new Guna.UI2.WinForms.Guna2TextBox();
+            password = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             username = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             name = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             btnSearchStaff = new Guna.UI2.WinForms.Guna2Button();
@@ -103,19 +104,18 @@
             guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             userAccountList = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            loadUserlist = new Guna.UI2.WinForms.Guna2PictureBox();
             btnSearchaccount = new Guna.UI2.WinForms.Guna2Button();
             guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)staffList).BeginInit();
             guna2Panel2.SuspendLayout();
             guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)userAccountList).BeginInit();
             guna2Panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)loadUserlist).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -126,7 +126,7 @@
             guna2Panel1.Location = new Point(38, 94);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel1.Size = new Size(712, 790);
+            guna2Panel1.Size = new Size(712, 799);
             guna2Panel1.TabIndex = 0;
             // 
             // staffList
@@ -161,7 +161,7 @@
             staffList.ReadOnly = true;
             staffList.RowHeadersVisible = false;
             staffList.RowHeadersWidth = 480;
-            staffList.Size = new Size(712, 790);
+            staffList.Size = new Size(712, 799);
             staffList.TabIndex = 0;
             staffList.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             staffList.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -184,6 +184,7 @@
             staffList.ThemeStyle.RowsStyle.Height = 25;
             staffList.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             staffList.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            staffList.CellContentClick += staffList_CellContentClick;
             // 
             // guna2Panel2
             // 
@@ -198,7 +199,7 @@
             guna2Panel2.Controls.Add(confirmPassword);
             guna2Panel2.Controls.Add(guna2HtmlLabel7);
             guna2Panel2.Controls.Add(guna2HtmlLabel6);
-            guna2Panel2.Controls.Add(passwrod);
+            guna2Panel2.Controls.Add(password);
             guna2Panel2.Controls.Add(guna2HtmlLabel5);
             guna2Panel2.Controls.Add(username);
             guna2Panel2.Controls.Add(guna2HtmlLabel4);
@@ -240,6 +241,7 @@
             btnClear.Size = new Size(94, 39);
             btnClear.TabIndex = 25;
             btnClear.Text = "Clear Form";
+            btnClear.Click += btnClear_Click;
             // 
             // deleteAccount
             // 
@@ -258,6 +260,7 @@
             deleteAccount.Size = new Size(98, 39);
             deleteAccount.TabIndex = 13;
             deleteAccount.Text = "Delete";
+            deleteAccount.Click += deleteAccount_Click;
             // 
             // updateAccount
             // 
@@ -276,6 +279,7 @@
             updateAccount.Size = new Size(98, 39);
             updateAccount.TabIndex = 12;
             updateAccount.Text = "Update";
+            updateAccount.Click += updateAccount_Click;
             // 
             // saveAccount
             // 
@@ -293,6 +297,7 @@
             saveAccount.Size = new Size(101, 39);
             saveAccount.TabIndex = 11;
             saveAccount.Text = "Save";
+            saveAccount.Click += saveAccount_Click;
             // 
             // roleStaff
             // 
@@ -372,27 +377,27 @@
             guna2HtmlLabel6.TabIndex = 6;
             guna2HtmlLabel6.Text = "Roles";
             // 
-            // passwrod
+            // password
             // 
-            passwrod.BorderRadius = 8;
-            passwrod.CustomizableEdges = customizableEdges13;
-            passwrod.DefaultText = "";
-            passwrod.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            passwrod.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            passwrod.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            passwrod.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            passwrod.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            passwrod.Font = new Font("Segoe UI", 9F);
-            passwrod.ForeColor = Color.Black;
-            passwrod.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            passwrod.Location = new Point(33, 207);
-            passwrod.Name = "passwrod";
-            passwrod.PasswordChar = '\0';
-            passwrod.PlaceholderText = "Enter staff username";
-            passwrod.SelectedText = "";
-            passwrod.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            passwrod.Size = new Size(245, 36);
-            passwrod.TabIndex = 5;
+            password.BorderRadius = 8;
+            password.CustomizableEdges = customizableEdges13;
+            password.DefaultText = "";
+            password.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            password.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            password.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            password.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            password.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            password.Font = new Font("Segoe UI", 9F);
+            password.ForeColor = Color.Black;
+            password.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            password.Location = new Point(33, 207);
+            password.Name = "password";
+            password.PasswordChar = '\0';
+            password.PlaceholderText = "Enter staff username";
+            password.SelectedText = "";
+            password.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            password.Size = new Size(245, 36);
+            password.TabIndex = 5;
             // 
             // guna2HtmlLabel5
             // 
@@ -421,6 +426,7 @@
             username.Name = "username";
             username.PasswordChar = '\0';
             username.PlaceholderText = "Enter account username";
+            username.ReadOnly = true;
             username.SelectedText = "";
             username.ShadowDecoration.CustomizableEdges = customizableEdges16;
             username.Size = new Size(245, 36);
@@ -453,6 +459,7 @@
             name.Name = "name";
             name.PasswordChar = '\0';
             name.PlaceholderText = "Enter staff name";
+            name.ReadOnly = true;
             name.SelectedText = "";
             name.ShadowDecoration.CustomizableEdges = customizableEdges18;
             name.Size = new Size(245, 36);
@@ -483,6 +490,20 @@
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges30;
             guna2Panel3.Size = new Size(712, 56);
             guna2Panel3.TabIndex = 2;
+            // 
+            // guna2PictureBox1
+            // 
+            guna2PictureBox1.CustomizableEdges = customizableEdges21;
+            guna2PictureBox1.Image = (Image)resources.GetObject("guna2PictureBox1.Image");
+            guna2PictureBox1.ImageRotate = 0F;
+            guna2PictureBox1.Location = new Point(16, 14);
+            guna2PictureBox1.Name = "guna2PictureBox1";
+            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2PictureBox1.Size = new Size(38, 31);
+            guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            guna2PictureBox1.TabIndex = 5;
+            guna2PictureBox1.TabStop = false;
+            guna2PictureBox1.Click += guna2PictureBox1_Click;
             // 
             // guna2HtmlLabel2
             // 
@@ -628,11 +649,12 @@
             userAccountList.ThemeStyle.RowsStyle.Height = 25;
             userAccountList.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             userAccountList.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            userAccountList.CellContentClick += userAccountList_CellContentClick;
             // 
             // guna2Panel5
             // 
             guna2Panel5.BackColor = Color.White;
-            guna2Panel5.Controls.Add(guna2PictureBox2);
+            guna2Panel5.Controls.Add(loadUserlist);
             guna2Panel5.Controls.Add(btnSearchaccount);
             guna2Panel5.Controls.Add(guna2TextBox3);
             guna2Panel5.CustomizableEdges = customizableEdges39;
@@ -641,6 +663,20 @@
             guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges40;
             guna2Panel5.Size = new Size(568, 50);
             guna2Panel5.TabIndex = 3;
+            // 
+            // loadUserlist
+            // 
+            loadUserlist.CustomizableEdges = customizableEdges33;
+            loadUserlist.Image = (Image)resources.GetObject("loadUserlist.Image");
+            loadUserlist.ImageRotate = 0F;
+            loadUserlist.Location = new Point(11, 10);
+            loadUserlist.Name = "loadUserlist";
+            loadUserlist.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            loadUserlist.Size = new Size(38, 31);
+            loadUserlist.SizeMode = PictureBoxSizeMode.Zoom;
+            loadUserlist.TabIndex = 6;
+            loadUserlist.TabStop = false;
+            loadUserlist.Click += loadUserlist_Click;
             // 
             // btnSearchaccount
             // 
@@ -678,32 +714,6 @@
             guna2TextBox3.Size = new Size(179, 37);
             guna2TextBox3.TabIndex = 1;
             // 
-            // guna2PictureBox1
-            // 
-            guna2PictureBox1.CustomizableEdges = customizableEdges21;
-            guna2PictureBox1.Image = (Image)resources.GetObject("guna2PictureBox1.Image");
-            guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new Point(16, 14);
-            guna2PictureBox1.Name = "guna2PictureBox1";
-            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2PictureBox1.Size = new Size(38, 31);
-            guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            guna2PictureBox1.TabIndex = 5;
-            guna2PictureBox1.TabStop = false;
-            // 
-            // guna2PictureBox2
-            // 
-            guna2PictureBox2.CustomizableEdges = customizableEdges33;
-            guna2PictureBox2.Image = (Image)resources.GetObject("guna2PictureBox2.Image");
-            guna2PictureBox2.ImageRotate = 0F;
-            guna2PictureBox2.Location = new Point(11, 10);
-            guna2PictureBox2.Name = "guna2PictureBox2";
-            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            guna2PictureBox2.Size = new Size(38, 31);
-            guna2PictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            guna2PictureBox2.TabIndex = 6;
-            guna2PictureBox2.TabStop = false;
-            // 
             // UserControlAccounts
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -721,11 +731,11 @@
             guna2Panel2.PerformLayout();
             guna2Panel3.ResumeLayout(false);
             guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             guna2Panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)userAccountList).EndInit();
             guna2Panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)loadUserlist).EndInit();
             ResumeLayout(false);
         }
 
@@ -745,7 +755,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox passwrod;
+        private Guna.UI2.WinForms.Guna2TextBox password;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2TextBox username;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
@@ -762,6 +772,6 @@
         private Guna.UI2.WinForms.Guna2Button btnClear;
         private Guna.UI2.WinForms.Guna2DataGridView userAccountList;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
+        private Guna.UI2.WinForms.Guna2PictureBox loadUserlist;
     }
 }
